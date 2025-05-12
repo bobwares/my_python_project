@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+
+# Env files
+.env
+
+# Poetry lock
+poetry.lock
+
+# pytest
+.pytest_cache/
+
+# tox
+.tox/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Docs build
+/site/

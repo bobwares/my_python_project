@@ -1,0 +1,59 @@
+### Create a new customer
+POST http://localhost:8000/customers
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "middleName": null,
+  "lastName": "Smith",
+  "email": "alice.smith@example.com",
+  "addresses": [
+    {
+      "type": "home",
+      "street1": "123 Main St",
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62704",
+      "country": "US"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "type": "mobile",
+      "countryCode": "+1",
+      "number": "555-1234"
+    }
+  ],
+  "notificationPreferences": {
+    "email": true,
+    "sms": false,
+    "push": true,
+    "mail": false
+  }
+}
+
+###
+
+### List all customers
+GET http://localhost:8000/customers
+
+###
+
+### Get a single customer by ID
+# (replace {{id}} with the actual ID returned above)
+GET http://localhost:8000/customers/468a582c-128a-46f2-b1a8-fd5876fba844
+
+###
+
+### Update a customer (partial)
+PATCH http://localhost:8000/customers/{{id}}
+Content-Type: application/json
+
+{
+  "email": "alice.new@example.com"
+}
+
+###
+
+### Delete a customer
+DELETE http://localhost:8000/customers/{{id}}
