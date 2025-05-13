@@ -17,6 +17,7 @@ requests = "^2.31"
 pydantic = "^2.1"
 python-dotenv = "^1.1.0"
 openai = "^1.76.2"
+jsonschema = "^4.23.0"
 
 
 [tool.poetry.group.docs.dependencies]
