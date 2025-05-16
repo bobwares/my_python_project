@@ -5,7 +5,7 @@ install:
 	poetry install --with dev,test,docs
 
 run:
-	poetry run python src/my_package/__init__.py
+	poetry run lc-demo --template prompt-french-translator.txt
 
 # Tests
 test:

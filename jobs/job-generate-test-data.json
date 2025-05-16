@@ -1,0 +1,8 @@
+{
+  "template": "prompt-test-data-generator.md",
+  "input": ["customer-schema.json"],
+  "output_file": "customer_table.json",
+  "output_ext": ".json",
+  "model": "gpt-4o-mini",
+  "temperature": 0.7
+}

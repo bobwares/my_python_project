@@ -1,3 +1,0 @@
-export OPENAI_API_KEY=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
-
-poetry run python -m my_package.openai_client

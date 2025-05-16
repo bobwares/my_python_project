@@ -1,0 +1,8 @@
+{
+  "template": "prompt-sql-generator.md",
+  "input": ["customer-schema.json"],
+  "output_file": "customer_table.sql",
+  "output_ext": ".sql",
+  "model": "gpt-4o",
+  "temperature": 0.5
+}

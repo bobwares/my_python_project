@@ -1,0 +1,8 @@
+{
+  "template": "prompt-domain-driven-design.md",
+  "input": ["customer-schema.json"],
+  "output_file": "customer_design.md",
+  "output_ext": ".md",
+  "model": "gpt-4o",
+  "temperature": 0.5
+}
